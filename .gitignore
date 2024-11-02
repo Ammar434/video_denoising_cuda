@@ -1,0 +1,8 @@
+.vscode
+CMakeFiles
+results
+videos
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+video-denoising-cuda
