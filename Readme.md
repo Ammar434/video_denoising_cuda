@@ -14,15 +14,14 @@ This project is a parallel programming learning exercise that implements the vid
 > [Zuo, C., Liu, Y., Tan, X., Wang, W., & Zhang, M. (2013). Video Denoising Based on a Spatiotemporal Kalman-Bilateral Mixture Model. The Scientific World Journal, 2013, Article ID 438147.](https://www.hindawi.com/journals/tswj/2013/438147/) 
 
 
-
-
-### Learning Objectives
 My primary goal is to learn parallel programming concepts by implementing a real-world research paper. This implementation:
 - Translates sequential algorithms to parallel architectures
 - Explores GPU memory management and optimization
 - Demonstrates practical applications of parallel computing
 
 ## 🎥 Demo
+
+https://github.com/user-attachments/assets/e67b7af1-33f8-4600-bd54-4e0348cf4ff0
 
 
 ## 🚀 Features
@@ -110,11 +109,6 @@ make -j $(nproc)
 - Video FPS: 60 
 - Codec: H264
 
-#### Interpretation
-1. Consistent speedup of ~8.3x across most resolutions
-2. GPU maintains efficiency advantage across all resolutions
-
-
 ## 📚 References
 
 ### Original Research
@@ -130,9 +124,3 @@ make -j $(nproc)
   doi={10.1155/2013/438147}
 }
 ```
-
-## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-Special thanks to the authors of the original paper for providing the theoretical foundation for this project. 
